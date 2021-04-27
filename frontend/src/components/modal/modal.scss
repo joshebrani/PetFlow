@@ -1,0 +1,59 @@
+.modal-background {
+  position: fixed;
+  background: rgba(128,128,128, 0.25);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.modal-child {
+    position: absolute;
+    top: 80px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    left: 50%;
+    right: 50%;
+}
+
+.modal-box{
+      background-color: #d6e0e4;
+      height: 500px;
+      width: 500px;
+      align-items: center;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px 0;
+}
+
+.modal-title>input{
+  line-height: 25px;
+  width:95%;
+}
+.modal-amt>input{
+  line-height: 25px;
+  width:95%;
+}
+.modal-date>input{
+  line-height: 25px;
+  width:50%;
+}
+
+.modal-button>input{
+  height: 60px;
+  width: 180;
+  border-radius: 20px;
+  background:linear-gradient(to left, #1a129273, #7bc5f1b8);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 19px;
+  margin: 10px;
+  color: white;
+}
+.modal-button>input:hover{
+  background-color: rgb(95, 95, 95);
+
+}

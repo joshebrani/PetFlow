@@ -1,0 +1,96 @@
+.entire-expense{
+    background-color: #f0f9ff;
+    padding: 10px;
+}
+
+.exp-button>button{
+    height: 60px;
+    width: 180;
+    border-radius: 20px;
+    background:linear-gradient(to left, #1a129273, #7bc5f1b8);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 19px;
+    margin: 10px;
+    color: white;
+}
+
+.exp-button>button:hover{
+    background-color: lightgray;
+
+}
+
+.expense-list>ul>li{
+    list-style: none;
+}
+
+.amount{
+    color: green;
+    font-weight: bold;
+}
+
+.deleteexpense{
+    width: 125px;
+    border-radius: 20px;
+    background: linear-gradient(to left, #1a129273, #7bc5f1b8);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    /* align-self: center; */
+    text-align: center;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    color: white;
+    line-height: 35px;
+    border: black 1px solid;
+
+}
+
+.deleteexpense::hover{
+    background-color: lightgray;
+
+}
+
+.close{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.close:hover{
+    color:white;
+}
+
+.exp {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul:nth-child(odd) { 
+    background-color: rgb(212 223 228);
+    border-radius: 10px;
+}
+
+.exp li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories p {
+    // display: flex;
+    // align-items: center;
+    // padding: 10px;
+    // width: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exp-title {
+    margin: 4px;
+}
